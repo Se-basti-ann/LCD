@@ -1,0 +1,103 @@
+
+ROM used:   2676/8192 (33%)
+            3136/8192 (38%) including unused fragments
+
+            2.0 Average locations per line
+            8.9 Average locations per statement
+
+RAM used:   20/368 (5%) at main() level
+            47/368 (13%) worst case
+
+Stack used: 8 worst case (4 in main + 4 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  237   199  67  trabajo4.c
+  671     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Devices\16F877A.H
+  464   100  33  lcd3.c
+----- -----
+ 1372   299 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     21   1    1             @delay_ms1
+ Inline         3   760  4.5  lcd_read_byte
+ Inline         2   262  3.7  lcd_read_nibble
+ Inline         1   399  2.4  lcd_send_nibble
+0    269  10    3   415  3.7  lcd_send_byte
+0    176   7    6   852  6.2  lcd_init
+0     18   1    4   208  6.3  lcd_gotoxy
+ Inline         1   354  4.7  lcd_putc
+0     44   2    1   233  2.2  EXT_isr
+0     10   0    0             @const666
+0    172   6    4             @PSTRINGC7_649
+0     10   0    0             @const668
+0     72   3    1   604  5.2  MAIN
+0    423  16    0  1677  3.4  view
+0      9   0    0             @const672
+0      8   0    0             @const673
+0      9   0    0             @const674
+0      8   0    0             @const675
+0      9   0    0             @const676
+0      7   0    0             @const677
+0      9   0    0             @const678
+0      6   0    0             @const679
+0      9   0    0             @const680
+0      5   0    0             @const681
+0      9   0    0             @const682
+0      6   0    0             @const683
+0      9   0    0             @const684
+0      6   0    0             @const685
+0      9   0    0             @const686
+0      8   0    0             @const687
+1   1088  41    1  3519  3.5  blink
+0      5   0    0             @const688
+0      7   0    0             @const689
+0      9   0    0             @const690
+0      5   0    0             @const691
+0      7   0    0             @const692
+0      9   0    0             @const693
+0      5   0    0             @const694
+0      7   0    0             @const695
+0      9   0    0             @const696
+0      5   0    0             @const697
+0      7   0    0             @const698
+0      9   0    0             @const699
+0      5   0    0             @const700
+0      7   0    0             @const701
+0      9   0    0             @const702
+0      5   0    0             @const703
+0      7   0    0             @const704
+0      9   0    0             @const705
+0      5   0    0             @const706
+0      7   0    0             @const707
+0      9   0    0             @const708
+0      5   0    0             @const709
+0      7   0    0             @const710
+0      9   0    0             @const711
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               11
+    Statements              299
+    Comments                226
+    Volume (V)              13686
+    Difficulty (D)          42.2
+    Effort to implement (E) 577807
+    Time to implement (T)   8 hours, 55 minutes
+    Est Delivered Bugs (B)  2
+    Cyclomatic Complexity   21
+    Maintainability (MI)    114
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-0004E    75  0  
+0004F-007FF  1509  460  
+00800-00FFF  1088  960  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+
